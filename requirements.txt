@@ -1,0 +1,5 @@
+gradio
+gtts
+pydub
+ffmpeg-python
+groq

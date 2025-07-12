@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Pipenv files (lock file is fine)
+pip-log.txt
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Environment variables and secrets
+.env
+
+# OS and IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Audio/image outputs (optional if not needed in repo)
+*.mp3
+*.wav
+*.jpg
+*.png
+
+# Logs
+*.log
