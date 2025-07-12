@@ -3,3 +3,4 @@ gtts
 pydub
 ffmpeg-python
 groq
+python-dotenv
