@@ -69,7 +69,13 @@ iface = gr.Interface(
 # iface.launch(debug=True)
 
 port = int(os.environ.get("PORT", 7860))  # Render sets PORT env variable
-iface.launch(server_name="0.0.0.0", server_port=port)
+iface.launch(
+    server_name="0.0.0.0", 
+    server_port=port,
+    show_error=True, 
+    debug=True
+)
+
 
 
 #http://127.0.0.1:7860
